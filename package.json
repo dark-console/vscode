@@ -1,0 +1,16 @@
+{
+	"name": "dark-console-vscode",
+	"displayName": "Dark Console — VS Code",
+	"description": "Dark Console color theme for Visual Studio Code. The whole-palette port of the Dark Console suite (github.com/dark-console/core/palette.json).",
+	"version": "1.0.0",
+	"publisher": "dark-console",
+	"engines": { "vscode": "^1.95.0" },
+	"categories": ["Themes"],
+	"contributes": {
+		"themes": [ {
+			"label": "Dark Console",
+			"uiTheme": "vs-dark",
+			"path": "./themes/dark_console.json"
+		} ]
+	}
+}

@@ -1,0 +1,27 @@
+# Dark Console — VS Code port
+# One-off artifact: a single themes/dark_console.json with ~330 semantic
+# keys. A generator that parses VS Code's key schema is NOT worth the
+# code surface — so this port treats the JSON itself as the target format.
+# The drift-checker still validates: every hex in the JSON must be in
+# core/palette.json (or is a documented extension — see `allowed_ext` below).
+
+name: vscode
+format: json
+generated: themes/dark_console.json
+
+# Hexes not in palette.json that ARE allowed in this port. Two families:
+#   1. Translucent variants (alpha-suffixed hex like #13284B99) — derived
+#      from a palette token by appending alpha; the base hex is in palette.
+#   2. Documented color-mixes for specific VS Code slots that palette.json
+#      doesn't express. (Should be zero in steady state — when you add a
+#      new one, add the *reason* here so it's a named decision, not an
+#      unnoticed drift.)
+allowed_ext:
+  # example: "#13284B99": "selection bg = structure.accentDeep + 60% alpha"
+  # (none currently — every hex in themes/dark_console.json traces to palette.json
+  #  or an alpha-suffixed variant whose base is in the palette)
+
+# Per-user resilient values this port *respects* (not forces) via VS Code settings:
+#   editor.fontFamily          (user's font of choice; our default = Glass TTY VT220)
+#   editor.lineHeight          (if set, wins; user picks density)
+#   workbench.colorCustomizations  (per-user per-key overrides in user settings)

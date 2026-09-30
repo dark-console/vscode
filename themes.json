@@ -1,0 +1,938 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Dark Studio",
+	"semanticHighlighting": true,
+	"colors": {
+		"activityBar.background": "#0A0806",
+		"sideBar.background": "#0A0806",
+		"panel.background": "#00040B",
+		"titleBar.activeBackground": "#0A0806",
+		"titleBar.inactiveBackground": "#0A0806",
+		"statusBar.background": "#0A0806",
+		"statusBar.noFolderBackground": "#0D1A32",
+		"debugToolBar.background": "#0A0806",
+		"editor.background": "#00040B",
+		"tab.inactiveBackground": "#00040B",
+		"tab.activeBackground": "#0D1A32",
+		"tab.hoverBackground": "#152E55",
+		"tab.unfocusedHoverBackground": "#152E55",
+		"editorGroupHeader.tabsBackground": "#00040B",
+		"peekViewResult.background": "#13284B",
+		"peekViewEditor.background": "#0D1A32",
+		"peekViewEditor.strippedBackground": "#0D1A32",
+		"notifications.background": "#13284B",
+		"notificationCenterHeader.background": "#13284B",
+		"menu.background": "#12100B",
+		"quickInput.background": "#12100B",
+		"quickInput.foreground": "#FF8300",
+		"keybindingLabel.background": "#300F0066",
+		"editorWidget.background": "#300F00",
+		"menu.selectionBackground": "#141109",
+		"panelInput.border": "#300F00",
+		"pickerGroup.border": "#152E55",
+		"settings.headerForeground": "#FFFFFF",
+		"sideBarSectionHeader.background": "#00040B",
+		"sideBarSectionHeader.border": "#00000000",
+		"surface.border": "#00000000",
+		"tab.unfocusedActiveBorder": "#00040B",
+		"textPreformat.background": "#300F00",
+		"modernActivityBar.activeBackground": "#0D1A32",
+		"modernActivityBar.hoverBackground": "#152E5533",
+		"inputOption.activeBackground": "#13284B99",
+		"foreground": "#FF8300",
+		"editor.foreground": "#FF8300",
+		"editor.lineHighlightBackground": "#011F27",
+		"editor.lineHighlight.activeBackground": "#011F27",
+		"terminal.foreground": "#FF8300",
+		"icon.foreground": "#FF8300",
+		"descriptionForeground": "#C2C2C2",
+		"disabledForeground": "#5D2400",
+		"errorForeground": "#DB0000",
+		"terminal.ansiForeground": "#FF8300",
+		"sideBarSectionHeader.foreground": "#FF8300",
+		"sideBarTitle.foreground": "#FF8300",
+		"sideBar.foreground": "#FF8300",
+		"panelTitle.activeForeground": "#FF8300",
+		"panelTitle.inactiveForeground": "#A96000",
+		"statusBar.foreground": "#FF8300",
+		"titleBar.activeForeground": "#FF8300",
+		"titleBar.inactiveForeground": "#A96000",
+		"activityBar.foreground": "#FF8300",
+		"activityBar.inactiveForeground": "#FF8300",
+		"modernActivityBarItem.activeForeground": "#DB0000",
+		"modernActivityBarItem.activeBackground": "#170700",
+		"modernActivityBarItem.hoverForeground": "#FF8300",
+		"notifications.foreground": "#FF8300",
+		"notificationCenterHeader.foreground": "#FF8300",
+		"tab.activeForeground": "#FF8300",
+		"tab.inactiveForeground": "#965300",
+		"tab.hoverForeground": "#FFFFFF",
+		"tab.unfocusedHoverForeground": "#FF8300",
+		"statusBarItem.hoverForeground": "#FFFFFF",
+		"menu.foreground": "#FF8300",
+		"menu.selectionForeground": "#FFFFFF",
+		"menu.borderColor": "#300F00",
+		"keybindingLabel.foreground": "#FF8300",
+		"keybindingLabel.keyBorderBackground": "#272A3366",
+		"input.placeholderForeground": "#CC6A00",
+		"editorLineNumber.foreground": "#5D2400",
+		"editorLineNumber.activeForeground": "#9E9E96",
+		"editorLineNumber.dimmedForeground": "#5D2400",
+		"editorGhostText.foreground": "#CC6A00",
+		"textPreformat.foreground": "#C2C2C2",
+		"textSeparator.foreground": "#1A3278",
+		"editorCodeLens.foreground": "#CC6A00",
+		"peekViewTitleDescription.foreground": "#C2C2C2",
+		"list.deemphasizedForeground": "#965300",
+		"list.invalidItemForeground": "#A1172E",
+		"search.resultsInfoForeground": "#C2C2C2",
+		"debugConsole.foreground": "#FF8300",
+		"textBlockQuote.background": "#0D1A3299",
+		"textCodeBlock.background": "#13284BCC",
+		"editorUnnecessaryCode.opacity": "#00000059",
+		"buildResultView.probableMatch.background": "#B88A1633",
+		"activityBar.border": "#00000000",
+		"sideBar.border": "#00000000",
+		"sideBarTitle.border": "#00000000",
+		"panel.border": "#152E55",
+		"titleBar.border": "#152E55",
+		"tab.border": "#152E55",
+		"tab.inactiveBorder": "#00040B",
+		"tab.lastPinnedBorder": "#00040B",
+		"editorGroupHeader.tabsBorder": "#152E55",
+		"editorGroup.border": "#00000000",
+		"notifications.border": "#152E55",
+		"statusBar.border": "#152E55",
+		"widget.border": "#300F00",
+		"settings.headerBorder": "#300F00",
+		"searchEditor.textInputBorder": "#300F00",
+		"editorGutter.border": "#00040B",
+		"editorWidget.border": "#152E55",
+		"inputOption.activeBorder": "#FF8300",
+		"inputOption.hoverBackground": "#152E5540",
+		"inputValidation.errorBorder": "#DB0000",
+		"inputValidation.infoBorder": "#0981B4",
+		"inputValidation.warningBorder": "#B88A16",
+		"inputValidation.errorBackground": "#DB000033",
+		"inputValidation.infoBackground": "#0981B433",
+		"inputValidation.warningBackground": "#B88A1633",
+		"errorBorder": "#DB0000",
+		"focusBorder": "#FF8300",
+		"sash.hoverBorder": "#FF8300",
+		"sash.activeBorder": "#FF8300",
+		"activityBar.activeBorder": "#DB0000",
+		"activityBar.activeFocusBorder": "#DB0000",
+		"panelTitle.activeBorder": "#FF8300",
+		"tab.activeBorder": "#0D1A32",
+		"tab.activeBorderTop": "#FF8300",
+		"tab.selectedBorderTop": "#FF8300",
+		"tab.unfocusedActiveBorderTop": "#152E55",
+		"tab.activeModifiedBorder": "#FF8300",
+		"tab.inactiveModifiedBorder": "#965300",
+		"tab.unfocusedActiveModifiedBorder": "#965300",
+		"terminal.tab.activeBorder": "#FF8300",
+		"statusBar.focusBorder": "#FF8300",
+		"statusBarItem.focusBorder": "#FF8300",
+		"progressBar.background": "#FF8300",
+		"welcomePage.progress.foreground": "#FF8300",
+		"list.dropBetweenBackground": "#FF8300",
+		"welcomePage.banner.background": "#13284B",
+		"welcomePage.favoriteBackground": "#152E55",
+		"extensions.iconForeground": "#FF8300",
+		"list.activeSelectionBackground": "#0D1A32",
+		"list.activeSelectionForeground": "#FF8300",
+		"list.activeSelectionIconForeground": "#FF8300",
+		"list.inactiveSelectionBackground": "#13284B",
+		"list.inactiveSelectionForeground": "#FF8300",
+		"list.hoverBackground": "#152E55",
+		"list.hoverForeground": "#FFFFFF",
+		"list.focusBackground": "#152E55",
+		"list.highlightForeground": "#E5AF24",
+		"list.dropBackground": "#152E5566",
+		"listFilterWidget.background": "#13284B",
+		"listFilterWidget.outline": "#152E55",
+		"listFilterWidget.noMatchesOutline": "#DB0000",
+		"list.filterMatchBackground": "#B88A1666",
+		"list.filterMatchBorder": "#B88A16",
+		"tree.indentGuidesStroke": "#152E55",
+		"tree.inactiveIndentGuidesStroke": "#152E5566",
+		"minimap.selectionHighlight": "#152E55",
+		"minimap.findMatchHighlight": "#B88A1666",
+		"minimap.errorHighlight": "#DB0000",
+		"minimap.warningHighlight": "#EABC48",
+		"minimap.infoHighlight": "#0981B4",
+		"button.background": "#0D1A32",
+		"button.foreground": "#FF8300",
+		"button.border": "#0D1A32",
+		"button.hoverBackground": "#152E55",
+		"button.secondaryBackground": "#0D1A32",
+		"button.secondaryForeground": "#FF8300",
+		"button.secondaryHoverBackground": "#152E55",
+		"badge.background": "#DB0000",
+		"badge.foreground": "#FFFFFF",
+		"activityBarBadge.background": "#DB0000",
+		"activityBarBadge.foreground": "#FFFFFF",
+		"activityErrorBadge.background": "#DB0000",
+		"activityErrorBadge.foreground": "#FFFFFF",
+		"activityWarningBadge.background": "#B88A16",
+		"activityWarningBadge.foreground": "#0A0A0A",
+		"input.background": "#170700",
+		"input.border": "#300F00",
+		"input.foreground": "#FF8300",
+		"checkbox.background": "#170700",
+		"checkbox.border": "#300F00",
+		"checkbox.foreground": "#FF8300",
+		"dropdown.background": "#170700",
+		"dropdown.foreground": "#FF8300",
+		"dropdown.border": "#300F00",
+		"dropdown.listBackground": "#0D1A32",
+		"settings.dropdownBackground": "#170700",
+		"settings.dropdownBorder": "#300F00",
+		"settings.checkboxBackground": "#170700",
+		"settings.checkboxBorder": "#300F00",
+		"panelInput.placeholderForeground": "#CC6A00",
+		"suggestions.background": "#13284B",
+		"suggestions.foreground": "#FF8300",
+		"suggestions.focusBorder": "#FF8300",
+		"suggestions.selectedBackground": "#152E55",
+		"suggestions.selectedForeground": "#FFFFFF",
+		"suggestions.selectedIconForeground": "#FF8300",
+		"suggestions.rangeHighlightBackground": "#152E5566",
+		"editorCursor.foreground": "#C7C7BD",
+		"editorCursor.background": "#0D1A32",
+		"editor.selectionBackground": "#13284B99",
+		"editor.inactiveSelectionBackground": "#13284B55",
+		"editor.selectionHighlightBackground": "#170700",
+		// word highlight (occurrences under cursor) — edit-box maroon #170700, classic (no alpha); border = same maroon,
+		// since a true "remove the border" is not expressible in the theme schema (border is drawn when set);
+		// text-occurrence fallback gets the same treatment (symbol support absent -> textual occurrence path)
+		"editor.wordHighlightBackground": "#300F00",
+		"editor.wordHighlightBorder": "#300F00",
+		"editor.wordHighlightStrongBackground": "#300F00",
+		"editor.wordHighlightStrongBorder": "#300F00",
+		"editor.wordHighlightTextBackground": "#300F00",
+		"editor.wordHighlightTextBorder": "#300F00",
+		"editor.findMatchBackground": "#B88A1680",
+		"editor.findMatchBorder": "#EABC48",
+		"editor.findMatchHighlightBackground": "#B88A1640",
+		"editor.findMatchHighlightBorder": "#B88A16",
+		"editor.findRangeHighlightBackground": "#152E5566",
+		"editorHoverWidget.background": "#01171E",
+		"editorHoverWidget.border": "#1F9EFF",
+		"editor.hoverHighlightBackground": "#13284B40",
+		"editor.rangeHighlightBackground": "#13284B40",
+		"editor.symbolHighlightBackground": "#152E5566",
+		"editor.symbolHighlightBorder": "#284CB8",
+		"editorWhitespace.foreground": "#96530080",
+		"editorIndentGuide.background1": "#1A3278",
+		"editorIndentGuide.background2": "#1A3278",
+		"editorIndentGuide.background3": "#1A3278",
+		"editorIndentGuide.activeBackground1": "#284CB8",
+		"editorIndentGuide.activeBackground2": "#284CB8",
+		"editorBracketMatch.background": "#13284B80",
+		"editorBracketMatch.border": "#FF8300",
+		"editor.foldPlaceholderForeground": "#CC6A00",
+		"editorLink.activeForeground": "#FF8300",
+		"textLink.foreground": "#DB0000",
+		"textLink.activeForeground": "#DB0000",
+		"editorBracketHighlight.foreground1": "#718CDC",
+		"editorBracketHighlight.foreground2": "#3DBEF5",
+		"editorBracketHighlight.foreground3": "#37D247",
+		"editorBracketHighlight.foreground4": "#EABC48",
+		"editorBracketHighlight.foreground5": "#E85E75",
+		"editorBracketHighlight.foreground6": "#997FDC",
+		"editorError.foreground": "#DB0000",
+		"editorWarning.foreground": "#EABC48",
+		"editorInfo.foreground": "#0981B4",
+		"editorHint.foreground": "#C2C2C2",
+		"problemsErrorIcon.foreground": "#DB0000",
+		"problemsWarningIcon.foreground": "#EABC48",
+		"problemsInfoIcon.foreground": "#0981B4",
+		"editorLightBulb.foreground": "#EABC48",
+		"editorLightBulbAutoFix.foreground": "#59D966",
+		"editorGutter.addedBackground": "#25A231",
+		"editorGutter.modifiedBackground": "#476BD7",
+		"editorGutter.deletedBackground": "#C01C37",
+		"editorGutter.commentRangeForeground": "#152E55",
+		"gitDecoration.modifiedResourceForeground": "#E5AF24",
+		"gitDecoration.untrackedResourceForeground": "#59D966",
+		"gitDecoration.ignoredResourceForeground": "#96530099",
+		"gitDecoration.deletedResourceForeground": "#E33B57",
+		"gitDecoration.conflictingResourceForeground": "#E03E84",
+		"editorOverviewRuler.addedForeground": "#25A231",
+		"editorOverviewRuler.modifiedForeground": "#476BD7",
+		"editorOverviewRuler.deletedForeground": "#C01C37",
+		"editorOverviewRuler.errorForeground": "#DB0000",
+		"editorOverviewRuler.warningForeground": "#EABC48",
+		"editorOverviewRuler.infoForeground": "#0981B4",
+		"editorOverviewRuler.findMatchForeground": "#B88A1699",
+		"editorOverviewRuler.selectionHighlightForeground": "#152E5599",
+		"editorOverviewRuler.wordHighlightForeground": "#284CB899",
+		"editorOverviewRuler.bracketMatchForeground": "#FF8300CC",
+		"minimapGutter.addedBackground": "#25A231",
+		"minimapGutter.modifiedBackground": "#476BD7",
+		"minimapGutter.deletedBackground": "#C01C37",
+		"peekViewTitle.background": "#300F00",
+		"peekViewTitle.foreground": "#FF8300",
+		"peekViewEditor.matchHighlightBackground": "#B88A1666",
+		"peekViewResult.matchHighlightBackground": "#B88A1666",
+		"searchEditor.findMatchBackground": "#B88A1666",
+		"searchEditor.findMatchBorder": "#B88A16",
+		"settings.modifiedItemIndicator": "#E5AF24",
+		"statusBar.debuggingBackground": "#C01C37",
+		"statusBar.debuggingForeground": "#FFFFFF",
+		"statusBarItem.hoverBackground": "#152E5566",
+		"statusBarItem.prominentBackground": "#300F0080",
+		"statusBarItem.remoteBackground": "#0981B4",
+		"statusBarItem.remoteForeground": "#FFFFFF",
+		"terminal.background": "#00040B",
+		"terminal.selectionBackground": "#13284B99",
+		"terminal.cursor": "#FF8300",
+		"terminal.ansiBlack": "#13141A",
+		"terminal.ansiRed": "#E33B57",
+		"terminal.ansiGreen": "#37D247",
+		"terminal.ansiYellow": "#E5AF24",
+		"terminal.ansiBlue": "#476BD7",
+		"terminal.ansiMagenta": "#E03E84",
+		"terminal.ansiCyan": "#16B1F3",
+		"terminal.ansiWhite": "#EBEBEB",
+		"terminal.ansiBrightBlack": "#4E5566",
+		"terminal.ansiBrightRed": "#E85E75",
+		"terminal.ansiBrightGreen": "#59D966",
+		"terminal.ansiBrightYellow": "#EABC48",
+		"terminal.ansiBrightBlue": "#718CDC",
+		"terminal.ansiBrightMagenta": "#E5619A",
+		"terminal.ansiBrightCyan": "#3DBEF5",
+		"terminal.ansiBrightWhite": "#FFFFFF",
+		"debugExceptionWidget.background": "#13284B",
+		"debugExceptionWidget.border": "#152E55",
+		"debugConsole.infoForeground": "#0981B4",
+		"debugConsole.warningForeground": "#EABC48",
+		"debugConsole.errorForeground": "#DB0000",
+		"debugConsole.sourceForeground": "#C2C2C2",
+		"debugTokenExpression.null": "#C2C2C2",
+		"debugTokenExpression.boolean": "#476BD7",
+		"debugTokenExpression.number": "#EABC48",
+		"debugTokenExpression.string": "#59D966",
+		"debugTokenexpression.regexp": "#E03E84",
+		"debugTokenExpression.error": "#DB0000",
+		"chat.slashCommandBackground": "#152E5566",
+		"chat.slashCommandForeground": "#FF8300",
+		"chat.editedFileForeground": "#EABC48",
+		"extensionsRecommendationsTips.background": "#13284B",
+		"newFileNotification.background": "#13284B",
+		"notebook.cellEditorBackground": "#0D1A32",
+		"notebook.cellStatusSuccessIcon.foreground": "#25A231",
+		"notebook.cellStatusErrorIcon.foreground": "#DB0000",
+		"notebook.cellEditorFocusBorder": "#FF8300",
+		"notebookeditorCellStatusBarItemHoverBackground": "#152E55",
+		"scrollbar.background": "#00000000",
+		"scrollbar.shadow": "#00040B",
+		"scrollbarSlider.background": "#682A0099",
+		"scrollbarSlider.hoverBackground": "#B24E00BB",
+		"scrollbarSlider.activeBackground": "#B24E00",
+		"minimapSlider.background": "#00000000",
+		"minimapSlider.hoverBackground": "#152E5580",
+		"minimapSlider.activeBackground": "#152E55",
+		"widget.shadow": "#00000080",
+		"welcomePage.tileBackground": "#0D1A32",
+		"textBlockQuote.border": "#152E55",
+		"editorOverviewRuler.border": "#00040B",
+		"breadcrumb.foreground": "#965300",
+		"breadcrumb.focusForeground": "#FF8300",
+		"breadcrumb.activeSelectionForeground": "#FF8300",
+		"breadcrumb.background": "#00000000",
+		"breadcrumb.selectionBackground": "#00000000"
+	},
+	"tokenColors": [
+	// =====================================================================
+	// tokenColors — how this file is READ, which rules are load-bearing,
+	// and the one model that is easiest to silently break (constants).
+	// =====================================================================
+	// FORMAT: the theme loader (vs/workbench/services/themes/common/
+	// colorThemeData.ts, _loadColorTheme, verified in the 1.137.0 build
+	// installed on this machine) parses theme files with the internal
+	// Json.parse at its DEFAULT options — comments are allowed (base/
+	// common/json.ts: ParseOptions.DEFAULT sets no disallowComments).
+	// These // comments load fine; keep them whole-line. Do not put //
+	// inside a string value in this file.
+	//
+	// EDIT / VALIDATE LOOP (run from the theme repo):
+	//   1. Strip whole-line comments, strict JSON.parse the rest, deep-
+	//      compare the object with the pre-edit parse: identical for a
+	//      docs-only change; differing exactly in the intended rule
+	//      entries for a color change.
+	//   2. Rule counts must hold: colors 328 / tokenColors 46 /
+	//      semanticTokenColors 20 (as of 2026-09). Recompute after any
+	//      edit.
+	//   3. "code --list-extensions --show-versions" still lists
+	//      barnacker.dark-studio; then the user runs Reload Window and
+	//      visually confirms. Never claim a recolor looks right without
+	//      the user checking the editor.
+	//
+	// PALETTE SOURCES (two reference layers — never mix them):
+	//   colors (328 UI tokens)     verbatim Dark_Studio (.obt) values.
+	//   tokenColors + semantic*    syntax recolors from the LazyBrutal
+	//                             nvim starter (barnacker/LazyBrutal,
+	//                             colors/brutal.lua), Treesitter layer:
+	//                             @constant #9EF019 (lime), @string
+	//                             #F5C024 italic, @keyword #B194FA,
+	//                             @operator/delimiter #D694FA, @variable
+	//                             #E54910, @function #F0612D, plain text
+	//                             #E8E8E3. Note: the Vim group Constant
+	//                             in brutal.lua (#E52E2E) is NOT this
+	//                             themes constant color, by design — nvim
+	//                             colors constants via the Treesitter
+	//                             layer (lime); that is the reference to
+	//                             honor.
+	//
+	// HOW VS CODE MATCHES A RULE TO A TOKEN (ground truth: textMateScope-
+	// Matcher.ts + colorThemeData.ts resolveScopes in the 1.137.0 build
+	// installed here. The algorithm was ported line-for-line and run
+	// against the three observed genes below; it reproduces the intended
+	// colors. Re-read those two files after every VS Code upgrade before
+	// trusting this section):
+	//   * A "scope" value lists alternate paths (array entries OR — the
+	//     best one wins). Each path is space-separated scope names,
+	//     ANDed: the token stack must contain each name anywhere
+	//     (presence filter, no parent/child containment required). A name
+	//     also prefix-matches longer stack scopes ("string" matches
+	//     "string.quoted.single.ts"). "source.ts" is the document-level
+	//     scope: a language filter, never an ancestor of anything else.
+	//   * The score of a matched path is set ENTIRELY by its LAST-listed
+	//     name: (1 + the 0-based stack position of the innermost
+	//     occurrence of that name, outermost = 0) x 65536 + that name's
+	//     character length. A flat space-separated scope path is ONE
+	//     conjunction group, so names before the last only gate the
+	//     match (all must be present somewhere in the stack) — they do
+	//     not lower the score; the last name alone sets it. Deeper
+	//     position = higher score; at the same position a LONGER last-
+	//     listed name scores higher. (Verified 2026-09-14 by running
+	//     the real 1.137.0 nameMatcher on the arcs gene: rule 8 and
+	//     rule 7 both score 393239 = 6 x 65536 + 23 for
+	//     variable.other.constant at stack depth 5/6.)
+	//   * Winner = highest score. On an EXACT score tie the LATER rule in
+	//     this array wins (the resolver keeps a candidate on score >=
+	//     while scanning in file order). Rule order IS the tie-break.
+	//   * Consequences: (a) list the document/language scope first and
+	//     the deepest name LAST; (b) base rules come before the scoped
+	//     overrides that extend them; (c) a new rule whose last-listed
+	//     name is LONGER than an existing bases (e.g. ends in
+	//     variable.other.constant.ts) outranks the base at the same
+	//     depth EVEN IF LISTED FIRST — a silent global recolor of every
+	//     token carrying that longer scope. Compare last-name lengths
+	//     against existing rules before adding any.
+	//
+	// LAYOUT: generic scopes first; the constant cluster sits at array
+	// indices 7-11 (46 rules total) — index 7 holds the base
+	// variable.other.constant rule, indices 8-11 the four
+	// language-qualified overrides — then the source.{ts,tsx,js,jsx}
+	// entity-name block, then the remaining rules. Hard constraints:
+	// (a) keep 7 BEFORE 8-11 (file order is the tie-break, see above);
+	// (b) never insert a rule ending in .other.constant(.ts|tsx|js|jsx)
+	// before rule 7 or between 7 and 8 — it would outrank the rules it
+	// is meant to override.
+	//
+	// ── THE CONSTANT MODEL (rules 7-11) — the one load-bearing divergence ──
+	// Behavior agreed with barnacker 2026-09-14. The scope stacks below
+	// are genes read from the editor token inspector on
+	// carl/cortex/arc-store.ts, outermost-first:
+	//   rule 7    variable.other.constant .................. #9EF019 (lime)
+	//     Base limb — every constant token is LIME: declaration site
+	//     AND every reference.
+	//   rules 8-11  source.{ts,tsx,js,jsx} meta.function
+	//                 meta.definition.variable variable.other.constant
+	//                                                   ... #E8E8E3 (white)
+	//     Override limbs — a const declaration whose stack carries
+	//     meta.function goes white, so function-local bindings read as
+	//     locally bound.
+	// How each gene resolves (ported-matcher output, verified 2026-09-14):
+	//   const arcs = new Map(..) inside a function
+	//     [source.ts, meta.function.ts, meta.block.ts,
+	//      meta.var-single-variable.expr.ts, meta.definition.variable.ts,
+	//      variable.other.constant.ts]
+	//     -> rule 8 and rule 7 score IDENTICALLY (both last-list names
+	//        variable.other.constant at the same stack depth); rule 8 is
+	//        later in the file -> WHITE. This is a FILE-ORDER win, not a
+	//        depth win: if 8-11 are ever moved above rule 7, local
+	//        constants silently go lime.
+	//   faculty_id: ARC_STORE_FACULTY_ID inside a function (a constant
+	//     reference)
+	//     [source.ts, meta.function.ts, meta.block.ts, meta.var.expr.ts,
+	//      meta.objectliteral.ts, meta.object.member.ts,
+	//      variable.other.constant.ts]
+	//     -> no meta.definition.variable in the gene -> only rule 7
+	//        matches -> LIME.
+	//     History: commit 8dd85b1 shipped eight rules shaped "source.X
+	//      meta.function|meta.block variable.other.constant" that made
+	//     this usage white; the user objected on exactly this token. Do
+	//     not re-introduce any rule whose match set includes a constant
+	//     reference inside a function.
+	//   const ARC_STORE_FACULTY_ID = .. at module top level
+	//     [source.ts, meta.var.expr.ts,
+	//      meta.var-single-variable.expr.ts, meta.definition.variable.ts,
+	//      variable.other.constant.ts]
+	//     -> no meta.function in the stack -> only rule 7 matches ->
+	//        LIME, at the declaration and at every later reference.
+	//
+	// WHY meta.definition.variable: the installed typescript-basics
+	// grammar (extensions/typescript-basics/syntaxes/
+	// TypeScript.tmLanguage.json in the 1.137.0 build on this machine)
+	// names the beginCaptures of the const single-variable-name patterns
+	// (upper-name and plain-name forms, contexts named
+	// meta.var-single-variable.expr.ts) as "meta.definition.variable.ts
+	// variable.other.constant.ts"; the same scope also appears on
+	// destructuring rest elements and const function declarations. A
+	// reference site never carries that declaration context — the
+	// declaration-vs-use asymmetry is exactly what rules 8-11 key on.
+	//
+	// LET / VAR LOCALS: no gap, by grammar. let/var single-variable
+	// declarations are captured as "meta.definition.variable.ts
+	// variable.other.readwrite.ts" — readwrite, NOT constant — so rules
+	// 7-11 never match them; the base "variable" rule (#E8E8E3) colors
+	// let/var declarations and their references alike, which already
+	// satisfies the local-binding policy (white at decl and at use).
+	// No rules needed; re-check only if the grammar re-scopes let/var.
+	//
+	// SCOPE-GENE HYGIENE: the grammar ships with VS Code and drifts
+	// between releases; the usage-site vs decl-site split is an
+	// observation from the token inspector, not a grammar guarantee.
+	// Before adding or deleting a rule keyed on a specific scope,
+	// re-confirm that scope in Command Palette -> Developer: Inspect
+	// Editor Tokens on the exact construct, and paste the observed gene
+	// into the commit message.
+	//
+
+		{
+			"scope": "comment",
+			"settings": {
+				"foreground": "#696959",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "string",
+			"settings": {
+				"foreground": "#F5C024",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.string.begin.ts",
+				"punctuation.definition.string.end.ts"
+			],
+			"settings": {
+				"foreground": "#F5C024"
+			}
+		},
+		{
+			"scope": [
+				"constant.numeric",
+				"numeric"
+			],
+			"settings": {
+				"foreground": "#E52E2E"
+			}
+		},
+		{
+			"scope": "constant.language.boolean",
+			"settings": {
+				"foreground": "#E5780B"
+			}
+		},
+		{
+			"scope": [
+				"constant.language",
+				"support.constant"
+			],
+			"settings": {
+				"foreground": "#9EF019"
+			}
+		},
+		{
+			"scope": [
+				"constant.character.escape",
+				"constant.character"
+			],
+			"settings": {
+				"foreground": "#D694FA"
+			}
+		},
+		{
+			"scope": "variable.other.constant",
+			"settings": {
+				"foreground": "#9EF019"
+			}
+		},
+		{
+			"scope": "source.ts meta.function meta.definition.variable variable.other.constant",
+			"settings": {
+				"foreground": "#E8E8E3"
+			}
+		},
+		{
+			"scope": "source.tsx meta.function meta.definition.variable variable.other.constant",
+			"settings": {
+				"foreground": "#E8E8E3"
+			}
+		},
+		{
+			"scope": "source.js meta.function meta.definition.variable variable.other.constant",
+			"settings": {
+				"foreground": "#E8E8E3"
+			}
+		},
+		{
+			"scope": "source.jsx meta.function meta.definition.variable variable.other.constant",
+			"settings": {
+				"foreground": "#E8E8E3"
+			}
+		},
+		{
+			"scope": "punctuation",
+			"settings": {
+				"foreground": "#D694FA"
+			}
+		},
+		{
+			"scope": "keyword.operator",
+			"settings": {
+				"foreground": "#DB0000"
+			}
+		},
+		{
+			"scope": "meta.field.declaration.ts keyword.operator.optional.ts",
+			"settings": {
+				"foreground": "#F9A201"
+			}
+		},
+		{
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#B194FA"
+			}
+		},
+		{
+			"scope": "keyword.control.directive",
+			"settings": {
+				"foreground": "#E5780B"
+			}
+		},
+		{
+			"scope": "storage.modifier",
+			"settings": {
+				"foreground": "#B194FA"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type",
+				"entity.name.class",
+				"entity.name.namespace",
+				"entity.other.inherited-class",
+				"support.class"
+			],
+			"settings": {
+				"foreground": "#7CB375"
+			}
+		},
+		{
+			"scope": "storage.type",
+			"settings": {
+				"foreground": "#D694FA"
+			}
+		},
+		{
+			"scope": "support.type",
+			"settings": {
+				"foreground": "#D694FA"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function",
+				"support.function"
+			],
+			"settings": {
+				"foreground": "#F0612D"
+			}
+		},
+		{
+			"scope": "variable",
+			"settings": {
+				"foreground": "#E8E8E3"
+			}
+		},
+		{
+			"scope": "variable.parameter",
+			"settings": {
+				"foreground": "#E54910"
+			}
+		},
+		{
+			"scope": [
+				"meta.object-literal.key",
+				"variable.property"
+			],
+			"settings": {
+				"foreground": "#1F9EFF"
+			}
+		},
+		{
+			"scope": [
+				"variable.object.property",
+				"variable.other.enummember"
+			],
+			"settings": {
+				"foreground": "#1F9EFF"
+			}
+		},
+		{
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#D694FA"
+			}
+		},
+		{
+			"scope": "entity.name.section",
+			"settings": {
+				"foreground": "#7CB375"
+			}
+		},
+		{
+			"scope": [
+				"markup.underline.link",
+				"string.other.link"
+			],
+			"settings": {
+				"foreground": "#1F9EFF"
+			}
+		},
+		{
+			"scope": "markup.inserted",
+			"settings": {
+				"foreground": "#9EF019"
+			}
+		},
+		{
+			"scope": "markup.changed",
+			"settings": {
+				"foreground": "#B194FA"
+			}
+		},
+		{
+			"scope": "markup.deleted",
+			"settings": {
+				"foreground": "#E52E2E"
+			}
+		},
+		{
+			"scope": "invalid.illegal",
+			"settings": {
+				"foreground": "#E52E2E",
+				"background": "#01171E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "invalid.deprecated",
+			"settings": {
+				"foreground": "#696959"
+			}
+		},
+		{
+			"scope": [
+				"source.ts",
+				"entity.name.type"
+			],
+			"settings": {
+				"foreground": "#F9A201"
+			}
+		},
+		{
+			"scope": [
+				"source.ts",
+				"entity.name.class"
+			],
+			"settings": {
+				"foreground": "#F9A201"
+			}
+		},
+		{
+			"scope": [
+				"source.ts",
+				"entity.name.namespace"
+			],
+			"settings": {
+				"foreground": "#F9A201"
+			}
+		},
+		{
+			"scope": [
+				"source.ts",
+				"entity.other.inherited-class"
+			],
+			"settings": {
+				"foreground": "#F9A201"
+			}
+		},
+		{
+			"scope": [
+				"source.ts",
+				"support.class"
+			],
+			"settings": {
+				"foreground": "#F9A201"
+			}
+		},
+		{
+			"scope": [
+				"source.tsx",
+				"entity.name.type"
+			],
+			"settings": {
+				"foreground": "#F9A201"
+			}
+		},
+		{
+			"scope": [
+				"source.tsx",
+				"entity.name.class"
+			],
+			"settings": {
+				"foreground": "#F9A201"
+			}
+		},
+		{
+			"scope": [
+				"source.tsx",
+				"entity.name.namespace"
+			],
+			"settings": {
+				"foreground": "#F9A201"
+			}
+		},
+		{
+			"scope": [
+				"source.tsx",
+				"entity.other.inherited-class"
+			],
+			"settings": {
+				"foreground": "#F9A201"
+			}
+		},
+		{
+			"scope": [
+				"source.tsx",
+				"support.class"
+			],
+			"settings": {
+				"foreground": "#F9A201"
+			}
+		},
+		{
+			"scope": [
+				"source.js",
+				"variable.other"
+			],
+			"settings": {
+				"foreground": "#E8E8E3"
+			}
+		},
+		{
+			"scope": [
+				"source.jsx",
+				"variable.other"
+			],
+			"settings": {
+				"foreground": "#E8E8E3"
+			}
+		},
+		{
+			"scope": [
+				"source.vue",
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#1F9EFF"
+			}
+		}
+	],
+	"semanticTokenColors": {
+		"variable": {
+			"foreground": "#E8E8E3"
+		},
+		"variable.readonly": {
+			"foreground": "#9EF019"
+		},
+		"variable.local": {
+			"foreground": "#E8E8E3"
+		},
+		"variable.readonly.local": {
+			"foreground": "#E8E8E3"
+		},
+		"parameter": {
+			"foreground": "#E54910"
+		},
+		"property": {
+			"foreground": "#1F9EFF"
+		},
+		"enumMember": {
+			"foreground": "#1F9EFF"
+		},
+		"method": {
+			"foreground": "#E5780B"
+		},
+		"function": {
+			"foreground": "#F0612D"
+		},
+		"function.local": {
+			"foreground": "#E8E8E3"
+		},
+		"type": {
+			"foreground": "#F9A201"
+		},
+		"interface": {
+			"foreground": "#F9A201"
+		},
+		"class": {
+			"foreground": "#7CB375"
+		},
+		"class.local": {
+			"foreground": "#E8E8E3"
+		},
+		"struct": {
+			"foreground": "#7CB375"
+		},
+		"number": {
+			"foreground": "#E52E2E"
+		},
+		"boolean": {
+			"foreground": "#E5780B"
+		},
+		"constant": {
+			"foreground": "#9EF019"
+		},
+		"keyword": {
+			"foreground": "#B194FA"
+		},
+		"modifier": {
+			"foreground": "#B194FA"
+		},
+		"operator": {
+			"foreground": "#D694FA"
+		},
+		"punctuation": {
+			"foreground": "#D694FA"
+		},
+		"string": {
+			"foreground": "#F5C024",
+			"fontStyle": "italic"
+		},
+		"comment": {
+			"foreground": "#696959",
+			"fontStyle": "italic"
+		}
+	}
+}
